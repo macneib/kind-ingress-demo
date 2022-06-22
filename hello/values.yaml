@@ -46,7 +46,7 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: nginx
   hosts:
-    - host: hello.sre.cts.enverus.dev
+    - host: hello.wow.test.dev
       paths:
         - path: /
           pathType: ImplementationSpecific
