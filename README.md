@@ -8,4 +8,8 @@
 
 `helm upgrade --install sre ./hello`
 
+`curl -k -H 'Host:hello.sre.cts.enverus.dev' http://0.0.0.0 -v`
+
+`kubectl port-forward services/sre-hello 8080:80 -n default`
+
 `kind delete cluster --name hello-kind`
