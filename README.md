@@ -1,3 +1,6 @@
+# kind-ingress-demo
+
+## Steps to try
 
 `kind create cluster --name hello-kind --config config.yaml`
 
